@@ -13,12 +13,6 @@ terraform {
       version = "3.72.0"
     }
   }
-
-  # Add in the backend configuration
-  backend "s3" {
-    region  = "eu-central-1"
-    profile = "default"
-  }
 }
 
 provider "aws" {
