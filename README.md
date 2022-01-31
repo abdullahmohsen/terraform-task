@@ -3,4 +3,4 @@
 1. ```./run staging <folder_name> plan```
 1. ```./run staging <folder_name> apply```
 
-  **alert:** </span> folder_name likes network, compute & data
+  **alert:** </span> folder_name likes network, lambda compute & data
