@@ -5,7 +5,6 @@
 //EC2
 //RDS (MySQL)
 
-
 terraform {
   required_providers {
     aws = {
@@ -19,7 +18,6 @@ provider "aws" {
   profile = "default"
   region  = "eu-central-1"
 }
-
 
 variable "infra_env" {
   type        = string
